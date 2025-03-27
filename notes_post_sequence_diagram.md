@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -13,3 +14,4 @@ sequenceDiagram
     activate server
     server-->>browser: Return all notes (including the new one)
     deactivate server
+```
